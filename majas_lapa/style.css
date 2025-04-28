@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f8ff;
+    color: #333;
+}
+
+/* headera stils un izskats */
+header { 
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+/* satura stils un izskats */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: #e6f0ff; 
+}
+
+/* visu planētu stili, garumi un izskati */
+.planeta {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    width: 269px; 
+    height: 350px; 
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+/* pasaules apraksta stils */
+#apraksts {
+    margin: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0;
+    display: none;
+}
+/* kājenes stils un izskats */
+footer {
+    background-color: #003366; 
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 40px;
+}
+/* footer a textu maina uz gaišu zilo krāsu kas ir es@henrijs.lv */
+footer a {
+    color: #66ccff; 
+    text-decoration: none; 
+}
+/* kanvas stils */
+#spele {
+    margin: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+/* spēles sekcijas stils vai kautkas */
+#Galcta {
+    margin-top: 20px; /* atstarpe virs speles */
+    max-width: 100%; 
+    height: auto; /* augstumu autpmatiski pielāgo pēc platumu */
+    border: 2px solid #003366; /* spēles līnijas biezums */
+}
